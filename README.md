@@ -12,7 +12,7 @@
  4) Rode a aplicação no prompt com o comando: npm start.
 
 Este sistema não tem front end, e pode ser perfeitamente testado com postman ou similares.
-Para as rotas, estou utilizando como exemplo que sua porta de comunicação seja a 3000.
+Para as rotas, estou utilizando como exemplo que sua porta de comunicação seja a 3000.<br>
  Rotas Disponivéis:<br>
   A) Get -> Rota pública: http://localhost:3000;<br>
   B) Get -> Rota Privada: http://localhost/user/ID. Onde o ID é exatamente o do usuário cadastrado no banco;<br>
