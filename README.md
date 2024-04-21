@@ -18,18 +18,18 @@ Para as rotas, estou utilizando como exemplo que sua porta de comunicação seja
   B) Get -> Rota Privada: http://localhost/user/ID. Onde o ID é exatamente o do usuário cadastrado no banco;<br>
   C) Post -> Rota de registro de usuário: http://localhost/auth/register. <br>
      Por se tratar de uma api em json sera necessário que os dados sigam este formado.<br>
-     {
-       "name": "nome do usuario",
-       "email": "email",
-       "password": "senha",
-       "confirmpassword": "confimação de senha"
-    };
+     {<br>
+       "name": "nome do usuario",<br>
+       "email": "email",<br>
+       "password": "senha",<br>
+       "confirmpassword": "confimação de senha"<br>
+    };<br>
 
- D) Post -> Rota de login.
-    Segue o mesmo parametro acima.
-     {
-      "email": "juanpara.com",
-      "password": "004209"
+ D) Post -> Rota de login.<br>
+    Segue o mesmo parametro acima.<br>
+     {<br>
+      "email": "juanpara.com",<br>
+      "password": "004209"<br>
      }
     
     
