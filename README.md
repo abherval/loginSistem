@@ -14,10 +14,10 @@
 Este sistema não tem front end, e pode ser perfeitamente testado com postman ou similares.
 Para as rotas, estou utilizando como exemplo que sua porta de comunicação seja a 3000.
  Rotas Disponivéis:
-  A) Get -> Rota pública: http://localhost:3000;
-  B) Get -> Rota Privada: http://localhost/user/ID. Onde o ID é exatamente o do usuário cadastrado no banco;
-  C) Post -> Rota de registro de usuário: http://localhost/auth/register. 
-     Por se tratar de uma api em json sera necessário que os dados sigam este formado.
+  A) Get -> Rota pública: http://localhost:3000;<br>
+  B) Get -> Rota Privada: http://localhost/user/ID. Onde o ID é exatamente o do usuário cadastrado no banco;<br>
+  C) Post -> Rota de registro de usuário: http://localhost/auth/register. <br>
+     Por se tratar de uma api em json sera necessário que os dados sigam este formado.<br>
      {
        "name": "nome do usuario",
        "email": "email",
