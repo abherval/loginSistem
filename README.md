@@ -1,7 +1,7 @@
 # loginSistem
  Sistema de login em JS
  Para que o sistema de login funcione perfeitamente será necessário alguns ajustes:
- 1) Na raiz crie um arquivo .env com as seguintes variáveis e seus respectios dados:
+ 1) Na raiz crie um arquivo .env com as seguintes variáveis e seus respectios dados:<br>
     A) DB_NAME, Variável que carrega o nome do banco;
     B) URL_DB, URL do banco de dados. Nota: Estamos utilizando mongoDB;
     C) PORT_APLICATION, Porta definida para a aplicação funcionar;
